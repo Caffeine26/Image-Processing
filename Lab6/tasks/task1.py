@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # 1. Read the image
-image = cv2.imread('image1.png', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('Lab6/image1.png', cv2.IMREAD_GRAYSCALE)
 
 if image is None:
     print("Error: Image not found.")
@@ -50,7 +50,7 @@ else:
     plt.show()
 
     # Save the output
-    cv2.imwrite('image1_repaired.png', final_result)
+    cv2.imwrite('Lab6/results/image1_repaired.png', final_result)
     
     print("Image processing completed!")
     print("\nAlgorithm Explanation:")
