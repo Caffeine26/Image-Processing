@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load the fingerprint image
-image_path = 'image3.png'  # Adjust if necessary
+image_path = 'Lab6/image3.png'  # Adjust if necessary
 img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 
 if img is None:

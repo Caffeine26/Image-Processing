@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Adjust path to your image
-image_path = 'image2.png'
+image_path = 'Lab6/image2.png'
 
 if not os.path.exists(image_path):
     print(f"Error: Image not found at {image_path}")
